@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Firefox Goto",
+  "description": "Adds a context menu item that opens the selected text as a link in a new tab",
+  "version": "1.0",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "60.0a1"
+    }
+  },
+
+  "icons": {
+    "16": "icon/label.svg",
+    "32": "icon/label.svg",
+    "48": "icon/label.svg"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  
+  "permissions": [
+    "menus",
+    "<all_urls>"
+  ]
+}
