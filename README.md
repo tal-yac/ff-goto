@@ -1,4 +1,4 @@
-# ff-goto
+# goto-select
 
 ## What it does
 

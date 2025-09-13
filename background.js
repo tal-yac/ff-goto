@@ -1,6 +1,6 @@
 'use strict';
 
-const extId = "ff-goto";
+const extId = "goto-select";
 let link;
 
 browser.menus.create({
